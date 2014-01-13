@@ -12,7 +12,8 @@
             "" : { "resource": "find/:id", "method": "get" }
       	}
       , "search" : {
-            "Movie" : { "resource": "search/movie", "method": "get" } 
+            "Movie" : { "resource": "search/movie", "method": "get" }           
+          , "TVShow"  : { "resource": "search/tv", "method": "get" }
           , "Collection"  : { "resource": "search/collection", "method": "get" }
           , "Person"  : { "resource": "search/person", "method": "get" }
           , "List"  : { "resource": "search/list", "method": "get" }
